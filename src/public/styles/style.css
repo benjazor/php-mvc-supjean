@@ -1,0 +1,14 @@
+ * {
+
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     font-family: 'Archivo', sans-serif;
+ }
+
+    body {
+        display: flex;
+        flex-flow: column;
+        background-color: white;
+    }

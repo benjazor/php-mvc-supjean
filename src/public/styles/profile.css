@@ -1,0 +1,35 @@
+div.profile {
+    margin: 5vh 0 0 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+div.profile > div.informations {
+    margin: 0 0 0 5vw;
+    display: flex;
+    flex-flow: column;
+}
+
+div.profile > div.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    width: 65vw;
+}
+
+div.profile > div.navigation > a {
+    height: 25vh; width: 25vh;
+    margin: 2.5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 3vh;
+    font-weight: bold;
+
+    background-color: #B3E5FC;
+}

@@ -1,0 +1,89 @@
+ul.results {
+    display: flex;
+    max-width: 100vw;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.product-image {
+    position: relative;
+}
+
+div.product-image img {
+    width: 15vw;
+    z-index: -10;
+}
+
+div.product-image button[name="product"]{
+    border: none;
+    background-color: ghostwhite;
+}
+
+div.product-image button[name="buy"] {
+    margin: 1vh;
+    padding: 1vh 1.5vh;
+
+    display: none;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    font-weight: bold;
+    font-size: 1.3em;
+
+    border-radius: 0.8vh;
+    border: none;
+    background-color: greenyellow;
+    color: white;
+}
+
+div.product-image button[name="buy"]:hover {
+    cursor: pointer;
+}
+
+ul.results li {
+    margin: 1vh 4vw;
+    padding: 1vh;
+
+    display: flex;
+    flex-flow: column;
+
+    border-radius: 3vh;
+    background-color: ghostwhite;
+}
+
+form.cartView button:hover {
+    cursor: pointer;
+}
+
+form.cartView p {
+    font-size: 2vh;
+}
+
+form.cartView div:first-child {
+    margin: 0 0 2vh 0;
+}
+
+form.cartView div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form.cartView button {
+    padding: 0.2vh 1vh;
+    border: none;
+    border-radius: 0.4vh;
+    font-size: 1.6vh;
+    color: white;
+    font-weight: bold;
+}
+
+form.cartView button[name="more"] {
+    background-color: deepskyblue;
+}
+
+form.cartView button[name="addToCart"] {
+    background-color: limegreen;
+}

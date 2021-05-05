@@ -1,0 +1,70 @@
+div.register h1 {
+    margin: 2vh 0;
+    font-size: 5vh;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.register form {
+    height: 85vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.register h2 {
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+
+div.informations {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.infobox {
+    width: 20vw;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.infobox div.inputs
+{
+    margin: 4vh 0;
+    padding: 2vh 4vw;
+    display: flex;
+    height: 55vh;
+    flex-flow: column;
+    background-color: lightskyblue;
+}
+div.inputs:first-child label {
+    margin: 0;
+}
+div.inputs label {
+    margin: 2vh 0 0 0;
+}
+
+div.inputs input{
+    margin: 0.2vh;
+    border: none;
+    padding: 1vh;
+    font-size: 1em;
+}
+
+div.register input[type="submit"]{
+    background-color: greenyellow;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 4vh; width: 4vh;
+}

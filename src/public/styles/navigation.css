@@ -1,0 +1,82 @@
+nav {
+    height: 6vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    background-color: #B3E5FC;
+}
+
+nav a {
+    padding: 0.5vh 1vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.4vh;
+    text-transform: uppercase;
+    color: white;
+    transition: background-color 375ms;
+}
+
+nav a:hover {
+    background-color: #BBDEFB;
+}
+
+/* The cart menu item */
+div.cart {
+    position: relative;
+}
+div.cart a {
+    margin: 1.4vh 0 0 0;
+}
+
+div.items {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    min-width: 20vw;
+
+    padding: 2vh 5vh;
+
+    background-color: rgba(52, 73, 94, 0.7);
+}
+
+div.items * {
+    color: white;
+    text-transform: uppercase;
+    display: none;
+
+}
+
+
+/* Show the dropdown menu on hover */
+
+div.cart:hover div.items {
+    display: flex;
+    flex-flow: column;
+}
+div.cart:hover div.items * {
+    display: flex;
+}
+
+form.searchBar {
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 3vh;
+}
+
+form.searchBar *:focus { outline: none; }
+form.searchBar * {
+    background-color: inherit;
+    border: none;
+    font-size: 2.4vh;
+}
+form.searchBar input[type="text"] {
+    margin: 0 4vh;
+    border-bottom: solid black 0.1vh;
+}
